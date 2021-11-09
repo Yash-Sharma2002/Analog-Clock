@@ -1,0 +1,40 @@
+body{
+    background-color: blueviolet;
+
+}
+h1{
+    text-align: center;
+}
+#clockcontainer{
+    position: relative;
+    width: 40vw;
+    margin: auto;
+    height:80vh;
+    background-image: url("clock.gif") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#hours,#seconds,#minutes{
+    position: absolute;
+    background: black;
+    border-radius: 2rem;
+    transform-origin: bottom;
+    width: 2rem;
+    height: 2rem;
+    margin: 17.1rem 289px;
+}
+#hours{
+ width:10px;
+ height: 8rem;
+ margin: 10.5rem 299px;
+}
+#minutes{
+    width:10px;
+    height: 9rem;
+    margin: 9rem 299px;
+   }
+   #seconds{
+    width:10px;
+    height: 10rem;
+    margin: 8rem 299px;
+   }
